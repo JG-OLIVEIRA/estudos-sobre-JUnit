@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.alura.CalculadoraTest" time="0.059" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.alura.CalculadoraTest" time="0.043" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="gnome"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="BR"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/home/jorgeoliveira/Documentos/projects/estudos-sobre-JUnit/target/surefire/surefirebooter12431440240248032751.jar /home/jorgeoliveira/Documentos/projects/estudos-sobre-JUnit/target/surefire 2022-04-07T14-09-29_639-jvmRun1 surefire10576728923437223737tmp surefire_015199066222727791462tmp"/>
+    <property name="sun.java.command" value="/home/jorgeoliveira/Documentos/projects/estudos-sobre-JUnit/target/surefire/surefirebooter6760213290983045362.jar /home/jorgeoliveira/Documentos/projects/estudos-sobre-JUnit/target/surefire 2022-04-07T14-34-07_743-jvmRun1 surefire682017951228808631tmp surefire_013985428079198985202tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/home/jorgeoliveira/Documentos/projects/estudos-sobre-JUnit/target/test-classes:/home/jorgeoliveira/Documentos/projects/estudos-sobre-JUnit/target/classes:/home/jorgeoliveira/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/jorgeoliveira/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -32,7 +32,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/home/jorgeoliveira/Documentos/projects/estudos-sobre-JUnit/target/surefire/surefirebooter12431440240248032751.jar"/>
+    <property name="surefire.real.class.path" value="/home/jorgeoliveira/Documentos/projects/estudos-sobre-JUnit/target/surefire/surefirebooter6760213290983045362.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.14.1+1-Ubuntu-0ubuntu1.20.04"/>
     <property name="user.name" value="jorgeoliveira"/>
@@ -57,5 +57,6 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="deveriaSomarDoisNumerosPositivos" classname="com.alura.CalculadoraTest" time="0.003"/>
+  <testcase name="deveriaSomarDoisNumerosPositivos" classname="com.alura.CalculadoraTest" time="0.002"/>
+  <testcase name="deveriaSomarDoisNumerosNegativos" classname="com.alura.CalculadoraTest" time="0"/>
 </testsuite>

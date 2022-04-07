@@ -11,4 +11,12 @@ public class CalculadoraTest {
 
         Assert.assertEquals(10, soma);
     }
+
+    @Test
+    public void deveriaSomarDoisNumerosNegativos(){
+        Calculadora calc = new Calculadora();
+        int soma = calc.somar(-3, -7);
+
+        Assert.assertEquals(-10, soma);
+    }
 }
